@@ -1,8 +1,79 @@
-
 DNS for fun and profit
 
 Hemant Soni
 hemant.soni@theremotelab.com
+@hemant_soni_
 
-* DNS for fun and profit
+Pradeep Aradhya
+pradeep.aradhya@theremotelab.com
+@aradhyapradeep
 
+
+http://theremotelab.com
+
+* The Remote Lab's story
+.image images/TRL_Story.jpg 570 800
+
+* Connect with DevOps gurus
+.link https://letsdevops.slack.com
+
+* Agenda:
+- Name resolution on Linux systems
+- DNS server internals 
+- Zonefiles, frequently used DNS records, TTL and DNS caches
+- DNS and email systems
+- Size and perfomance: MTU and IP fragmentation
+- TXT record for custom applications
+
+* Name resolution on Linux systems
+
+- What happens when...
+- Zoom into name resolution
+- /etc/nsswitch.conf
+
+* DNS server internals
+
+- Who did we talk to
+- How did we talk
+- +trace
+
+.link https://help.ubuntu.com/lts/serverguide/dns-configuration.html Common DNS configurations
+
+* Zonefiles, DNS records, TTL
+- A
+- PTR
+- CNAME
+- MX
+- TXT - the simplest and the most powerful
+- And many more..
+
+* DNS and email systems
+- Let the games begin!!
+
+* MX records and priorities: 
+
+- Why spammers use lower priorities?
+
+* DKIM 
+- How do I ensure the validity of email sender?
+- How do I ensure that my mail is not tampered in transit?
+- s . _domainkey . d
+  dig txt 20120113._domainkey.gmail.com
+
+* SPF records
+- Am I allowed to send mail from this IP for this domain?
+  dig txt gmail.com
+  dig txt _spf.google.com
+  dig txt _netblocks.google.com
+
+* DNSBL
+
+* Size and perfomance: MTU and IP fragmentation
+
+* TXT record for custom applications
+  dig txt profile.theremotelab.co.uk
+
+* References
+.link http://dkim.org/specs/rfc4871-dkimbase.html DKIM
+.link http://dkim.org/specs/rfc4871-dkimbase.html SPF
+.link http://dkim.org/specs/rfc4871-dkimbase.html DNSBL

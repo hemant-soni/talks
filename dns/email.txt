@@ -1,0 +1,68 @@
+                                                                                                                                                                                                                                                               
+Delivered-To: hemantkrsoni@gmail.com
+Received: by 10.129.76.78 with SMTP id z75csp688381ywa;
+        Fri, 22 Jan 2016 06:22:08 -0800 (PST)
+X-Received: by 10.37.93.9 with SMTP id r9mr1677168ybb.103.1453472528555;
+        Fri, 22 Jan 2016 06:22:08 -0800 (PST)
+Return-Path: <saurabh.hirani@gmail.com>
+Received: from mail-yk0-x231.google.com (mail-yk0-x231.google.com. [2607:f8b0:4002:c07::231])
+        by mx.google.com with ESMTPS id g196si2362425ywe.320.2016.01.22.06.22.08
+        for <hemantkrsoni@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 22 Jan 2016 06:22:08 -0800 (PST)
+Received-SPF: pass (google.com: domain of saurabh.hirani@gmail.com designates 2607:f8b0:4002:c07::231 as permitted sender) client-ip=2607:f8b0:4002:c07::231;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of saurabh.hirani@gmail.com designates 2607:f8b0:4002:c07::231 as permitted sender) smtp.mailfrom=saurabh.hirani@gmail.com;
+       dkim=pass header.i=@gmail.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=gmail.com
+Received: by mail-yk0-x231.google.com with SMTP id k129so87510436yke.0
+        for <hemantkrsoni@gmail.com>; Fri, 22 Jan 2016 06:22:08 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:date:message-id:subject:from:to:content-type;
+        bh=G06Sw4xuWqUubGOg4MzYmX4wpoNzUwXFzsH01s52CA4=;
+        b=Jb87t33LQZolWeSR7j9VK3CZL2FFOilTfVQJJo9Z86cAnpk0wG9aU9Ip+ZoSCw5ct3
+         u59p72rlE7U5CzwjD3AnUBOszCWgGglTXu2I6qHzdW+G6M1hou4cYBV5FgysO8nthGKA
+         BcZfZz9myCbjiQ7IJElzWVHsaoX5G0eVwn4uWZwOKmSyLSell5MHV5pi3oNv/eiihEVc
+         sCHobqU/JYfeWZ7wdggvt5XJt5HE6aLN5EIr8H6zW2sk23kRCFvJZnn1WqkC/dhSVFzC
+         ioR8tKpP+N080GdtA0k5TeISbLyYUpc5lfPaNOwRqcfGLTk9KYkRvIeVjI6yX8uI4POu
+         wlrg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:date:message-id:subject:from:to
+         :content-type;
+        bh=G06Sw4xuWqUubGOg4MzYmX4wpoNzUwXFzsH01s52CA4=;
+        b=jROmQgBjMx+HLGsXO87F4BtZQst9fH1DjDECPf3YAKEc162QNmxCMsAlmxpvK4OS7p
+         tg94OJRmbm4BDDsYWqp1Ojq9PlExU4HxMJK5BgF1+XWmZ/6zFLJj6UsUw8+Oo/LNj3Tf
+         DYDr1kraAkfdARxS14zhqoeLxF841CVVd4xAzDbQqLwq1IDeAjj3yp+ZxZTdIEDylrLh
+         Z9q5bCW7k9g0IaToSh/A286TAPR9py9hfAiesnR+/kgO2SEc/WoyODYnMH7iLjCyKwO9
+         zXFd1T0CkVVcpZJS87Aq/E05mSM8+D4HmrVLbTHfckp5NN+lI0K5QzHaQJuHvdv11hP/
+         /POA==
+X-Gm-Message-State: AG10YOR1Zs2ZKHZd7S07ejSAH19lU+qUhbD2E2bhed/Tl0Do1N3KBgMJlQFQ2GPA9mV8EgTjMN2ngSXMH2sw8Q==
+MIME-Version: 1.0
+X-Received: by 10.129.85.83 with SMTP id j80mr1589810ywb.28.1453472528424;
+ Fri, 22 Jan 2016 06:22:08 -0800 (PST)
+Received: by 10.37.82.66 with HTTP; Fri, 22 Jan 2016 06:22:08 -0800 (PST)
+Date: Fri, 22 Jan 2016 19:52:08 +0530
+Message-ID: <CABLu-kq=smG3BRff0XZeWgzDMok2=5rsZJTHouuiT2fsPXrebg@mail.gmail.com>
+Subject: test mail 1
+From: Saurabh Hirani <saurabh.hirani@gmail.com>
+To: Hemant Soni <hemantkrsoni@gmail.com>
+Content-Type: multipart/alternative; boundary=001a113f3cbebf664a0529ecf11b
+
+--001a113f3cbebf664a0529ecf11b
+Content-Type: text/plain; charset=UTF-8
+
+He who cannot obey himself will always be commanded.
+
+-- 
+Saurabh
+
+--001a113f3cbebf664a0529ecf11b
+Content-Type: text/html; charset=UTF-8
+
+<div dir="ltr">He who cannot obey himself will always be commanded.<br clear="all"><div><br></div>-- <br><div class="gmail_signature">Saurabh</div>
+</div>
+
+--001a113f3cbebf664a0529ecf11b--
+
