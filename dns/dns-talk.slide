@@ -36,6 +36,7 @@ http://theremotelab.com
 - Who did we talk to
 - How did we talk
 - +trace
+    dig +trace mail.google.com
 
 .link https://help.ubuntu.com/lts/serverguide/dns-configuration.html Common DNS configurations
 
@@ -54,6 +55,10 @@ http://theremotelab.com
 
 - Why spammers use lower priorities?
 
+* Forward and reverse DNS lookup records
+- Usually done by ISP
+- Good MX records will have both forward and reverse entries
+
 * DKIM 
 - How do I ensure the validity of email sender?
 - How do I ensure that my mail is not tampered in transit?
@@ -67,6 +72,10 @@ http://theremotelab.com
   dig txt _netblocks.google.com
 
 * DNSBL
+- Reverse the IP and concatenate with the WL/BL list supporting domain
+- Result are hint 
+- We can also use this mechanism for our own custom actions
+    
 
 * Size and perfomance: MTU and IP fragmentation
 
