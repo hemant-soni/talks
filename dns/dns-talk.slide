@@ -77,7 +77,10 @@ http://theremotelab.com
 - We can also use this mechanism for our own custom actions
     
 
-* Size and perfomance: MTU and IP fragmentation
+* Size and perfomance
+- MTU
+- IP fragmentation
+
 
 * TXT record for custom applications
   dig txt profile.theremotelab.co.uk
