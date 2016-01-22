@@ -84,5 +84,7 @@ http://theremotelab.com
 
 * References
 .link http://dkim.org/specs/rfc4871-dkimbase.html DKIM
-.link http://dkim.org/specs/rfc4871-dkimbase.html SPF
-.link http://dkim.org/specs/rfc4871-dkimbase.html DNSBL
+.link http://www.openspf.org/SPF_Record_Syntax SPF
+.link https://www.spamhaus.org/faq/section/DNSBL%20Usage DNSBL
+
+* Questions
