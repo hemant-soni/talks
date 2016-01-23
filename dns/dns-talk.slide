@@ -72,7 +72,7 @@ http://theremotelab.com
 
 * DNSBL
 - Reverse the IP and concatenate with the WL/BL list supporting domain
-- Results are hints in the context for list
+- Results are hints in the context of list
 - We can also use this mechanism for our own custom actions
     
 
