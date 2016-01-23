@@ -30,6 +30,7 @@ http://theremotelab.com
 - What happens when...
 - Zoom into name resolution
 - /etc/nsswitch.conf
+  ltrace -n3 -S ping -c 1 theremotelab.co.uk 2>&1 |less
 
 * DNS server internals
 
