@@ -48,15 +48,14 @@ http://theremotelab.com
 - TXT - the simplest and the most powerful
 - And many more..
 
+* Forward and reverse DNS lookup records
+- Reverse DNS usually managed by ISP
+
 * DNS and email systems
 - Let the games begin!!
 
 * MX records and priorities: 
-
 - Why spammers use lower priorities?
-
-* Forward and reverse DNS lookup records
-- Reverse DNS usually managed by ISP
 - Good MX records will have both forward and reverse entries
 
 * DKIM
