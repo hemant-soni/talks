@@ -10,18 +10,20 @@ pradeep.aradhya@theremotelab.com
 
 
 http://theremotelab.com
-http://theremotelab.io/blog
-https://github.com/TheRemoteLab
-https://twitter.com/TheRemoteLab
-https://www.facebook.com/TheRemoteLab
-https://www.linkedin.com/company/the-remote-lab
 
 * The Remote Lab's story
 .image images/TRL_Story.jpg 570 800
 
 * Connect with DevOps gurus
+.link http://theremotelab.io/blog Blog
+.link https://twitter.com/TheRemoteLab Twitter
+.link https://github.com/TheRemoteLab Github
+.link https://www.linkedin.com/company/the-remote-lab LinkedIn
+.link https://www.facebook.com/TheRemoteLab Facebook
+.link https://twitter.com/hashtag/100Days100DevOpsTools?src=hash #100Days100DevOpsTools Campaign
 .link https://letsdevops.slack.com
-.link https://twitter.com/hashtag/100Days100DevOpsTools?src=hash #100Days100DevOpsTools
+  Connect with us on Slack. Drop an email to hello@theremotelab.com to get the invitation.
+
 
 * Agenda:
 - Name resolution on Linux systems
